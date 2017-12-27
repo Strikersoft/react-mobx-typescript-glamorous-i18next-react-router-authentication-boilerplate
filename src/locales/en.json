@@ -1,0 +1,11 @@
+{
+  "login": {
+    "username": "Username",
+    "password": "Password",
+    "submit": "Submit",
+    "loading": "Loading..."
+  },
+  "auth": {
+    "toggleThemeToDark": "Toggle theme to dark"
+  }
+}

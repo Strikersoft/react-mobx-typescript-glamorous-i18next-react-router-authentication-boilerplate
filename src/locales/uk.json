@@ -1,0 +1,11 @@
+{
+  "login": {
+    "username": "Юзернейм",
+    "password": "Пароль",
+    "submit": "Логін",
+    "loading": "Завантаження..."
+  },
+  "auth": {
+    "toggleThemeToDark": "Змінити тему на темну"
+  }
+}
