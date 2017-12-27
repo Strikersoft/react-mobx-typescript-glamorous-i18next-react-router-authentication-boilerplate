@@ -1,12 +1,14 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "homepage": "https://strikersoft.github.io/react-mobx-typescript-glamorous-i18next-react-rotuer-authentication-boilerplate",
   "private": true,
   "dependencies": {
     "@types/i18next": "^8.4.2",
     "@types/i18next-browser-languagedetector": "^2.0.1",
     "@types/react-router": "^4.0.20",
     "axios": "^0.17.1",
+    "gh-pages": "^1.1.0",
     "glamor": "^2.20.40",
     "glamorous": "^4.11.2",
     "i18next": "^10.2.1",
@@ -23,7 +25,9 @@
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
+    "eject": "react-scripts-ts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@types/jest": "^21.1.9",
